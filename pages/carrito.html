@@ -4,79 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css -->
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/67f177ecfe.js" crossorigin="anonymous"></script>
+
     <title>Carrito</title>
 </head>
 <body>
-    <header>
-        <img src="/images/nimutech_logo_jpg.jpg" alt="">
-        <nav>
-            <ul>
-                <li class="cabecera"><a href="/pages/tienda.html">Tienda</a></li>
-                <li class="cabecera"><a href="/pages/login.html">Ingresar</a></li>
-                <li class="cabecera"><a href="/pages/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
-                <li class="cabecera"><a href="/index.html">Inicio</a></li>
-            </ul>
-        </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <img class="col-lg-3 col-md-6 col-sm-12" src="../images/nimutech_logo_jpg.jpg" alt="">
+    
+            <nav class="col-lg-9 col-md-6 col-sm-12 container-fluid pt-5 ps-5">
+                <ul class="row">
+                        <li class="col-lg-3 col-md-6 col-sm-12 pt-5 ps-5 cabecera"><a href="/pages/tienda.html">Tienda</a></li>
+                        <li class="col-lg-3 col-md-6 col-sm-12 pt-5 ps-5 cabecera"><a href="/pages/login.html">Ingresar</a></li>
+                        <li class="col-lg-3 col-md-6 col-sm-12 pt-5 ps-5 cabecera"><a href="/pages/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+                        <li class="col-lg-3 col-md-6 col-sm-12 pt-5 ps-5 cabecera"><a href="../index.html">Inicio</a></li>
+                 </ul>
+            </nav>
+        </div>
     </header>
 
-    <table>
-        <tr>
-            <th></th>
-            <th>Producto</th>
-            <th>Cantidad</th>
-            <th>Precio Unitario</th>
-            <th>Precio Final</th>
-        </tr>
-        <tr>
-            <th><img src="/images/Remera Kakashicarrito.png" alt=""></th>
-            <th>Remera</th>
-            <th>1</th>
-            <th>$1000</th>
-            <th>$1000</th>
-        </tr>
-        <tr>
-            <th><img src="/images/Pollerascarrito.png" alt=""></th>
-            <th>Pollera</th>
-            <th>1</th>
-            <th>$1000</th>
-            <th>$1000</th>
-        </tr>
-        <tr>
-            <th><img src="/images/Matecarrito.jpeg" alt=""></th>
-            <th>Mate</th>
-            <th>2</th>
-            <th>$1000</th>
-            <th>$2000</th>
-        </tr>
-        <tr>
-            <th>-</th>
-            <th>ENVIO</th>
-            <th>-</th>
-            <th>-</th>
-            <th>$500</th>
-        </tr>
-        <tr>
-            <th>-</th>
-            <th>Monto Final</th>
-            <th>-</th>
-            <th>-</th>
-            <th>$5500</th>
-        </tr>
-    </table>
-
-    <footer>
-        <div>
-            <h2>Contacto</h2>
-            <span><i class="fa-brands fa-whatsapp"></i></span>
-            <span><i class="fa-brands fa-instagram"></i></span>
-            <span><i class="fa-regular fa-envelope"></i></span>
+    <section class="container-fluid  mt-5">
+        <div class="row text justify-content-center">
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2">Producto</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">Cantidad</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">Precio Unitario</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">Precio Final </p>
         </div>
+    </section>
 
-        <div>
-            <p>Politicas de Privacidad</p>
+    <section class="container-fluid">
+        <div class="row text justify-content-center">
+            <img class="col-lg-2 col-md-2 col-sm-2" src="../images/Remera Kakashicarrito.png" alt="Remera negra Kakashi">
+            <p class="col-lg-2 col-md-2 col-sm-2">Remera</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">1</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$1000</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$1000</p>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row text justify-content-center">
+            <img class="col-lg-2 col-md-2 col-sm-2" src="../images/Pollerascarrito.png" alt="Pollera Kimetsu no yaiba">
+            <p class="col-lg-2 col-md-2 col-sm-2">Remera</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">1</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$1000</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$1000</p>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row text justify-content-center">
+            <img class="col-lg-2 col-md-2 col-sm-2" src="../images/Matecarrito.jpeg" alt="Mate 3D Harry Potter">
+            <p class="col-lg-2 col-md-2 col-sm-2">Mate 3D</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">2</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$1000</p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$2000</p>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row text justify-content-center">
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2">Envio</p>
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$500</p>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row text justify-content-center">
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2">Monto Final</p>
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2"></p>
+            <p class="col-lg-2 col-md-2 col-sm-2">$5500</p>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">  
+            <div class="col-lg-9 container-fluid">
+                <div class="row">
+                    <h2 class="col-lg-3 mt-1">Contacto</h2>
+                    <span class="col-lg-3 col-md-4 col-sm-12"><i class="fa-brands fa-whatsapp"></i></span>
+                    <span class="col-lg-3 col-md-4 col-sm-12"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="col-lg-3 col-md-4 col-sm-12"><i class="fa-regular fa-envelope"></i></span>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-12 col-sm-12 mt-2">
+                <a class="burich" href="#">Politicas de Privacidad</a>
+            </div>
         </div>
     </footer>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/67f177ecfe.js" crossorigin="anonymous"></script>
 </body>
 </html>

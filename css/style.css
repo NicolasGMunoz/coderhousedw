@@ -5,16 +5,19 @@
 
 /* index */
 
+
+
 .cabecera{
     color:white;
     list-style: none;
     display: inline;
-    float: right ;
-    margin-right: 25px; 
-   
+    text-decoration: none;
     
 }
 
+.bordes{
+    border: solid white 1px;
+}
 body{
     background-color: #171425;
 }
@@ -23,48 +26,26 @@ h1{
     text-align: center;
     color: gray;
     font-family: 'Comic Neue', cursive;
-}
-
-main{
-    margin-top: 150px;
-}
-
-.imgmain{
-    margin-top: 20PX;
-    margin-left: 180px;
-}
-
-section{
-    margin-top: 50px;
-    float: left ;
+ 
 }
 
 
-.lh{
-    color:white;
-    list-style: none;
-    display: inline;
-    margin-left: 290px;
-    margin-right: 200px;
+.burich{
+    text-decoration: none;
 }
+
+
 
 footer { 
     margin-top: 20px;
     background-color: rgb(38, 5, 61);
-    height: 80px;
     color: hsl(0, 1%, 71%);
     text-align: center;
-    
-    
 }
+
 footer span{
     font-size: 30px;
-    padding: 10px; 
-    
 }
-
-
-
 /* preguntasfrecuentes */
 
 .p_f_h {
@@ -79,28 +60,18 @@ footer span{
     margin-top: 10px;
     color: white;
     font-family: 'Comic Neue', cursive;
+    list-style: none;
 }
 
-/* login*/
 
-.centrar_imagen {
-    margin-top: 100px;
-    margin-left: 300px; 
-    margin-bottom: 100px;
-}
 
-/* carrito */
+/* carrito / login */
 
-table {
-    margin: 10%;
-}
-
-table tr{
+.text {
     color: white;
-    padding: 25%;
-    
+    padding: 20px;
+    text-align: center;
 }
-
 
 
 /* Tienda */
@@ -110,5 +81,9 @@ table tr{
     text-align: center;
     color: gray;
     font-size: large;
-    margin-bottom: 20px;
+}
+.th2{
+    text-align: center;
+    color: gray;
+    font-family: 'Comic Neue';
 }
