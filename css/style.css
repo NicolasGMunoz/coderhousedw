@@ -4,16 +4,9 @@
 }
 
 /* index */
-.cabecera1{
-    color:white;
-    list-style: none;
-    display: inline;
-    text-decoration: none;
-    
-}
 
 .cabecera{
-    justify-content: end;
+    justify-content: flex-end;
     background-color: transparent;
     font-size: large;
     color: white;
