@@ -4,7 +4,7 @@
 }
 
 /* index */
-.cabecera{
+.cabecera1{
     color:white;
     list-style: none;
     display: inline;
@@ -12,9 +12,18 @@
     
 }
 
-.bordes{
-    border: solid white 1px;
+.cabecera{
+    justify-content: end;
+    background-color: transparent;
+    font-size: large;
+    color: white;
+    
 }
+
+.botoncabecera {
+    border: solid white 2px;
+}
+
 body{
     background-color: #171425;
 }
@@ -26,7 +35,7 @@ h1{
  
 }
 
-.btn-primary{
+.transparent{
     background-color: transparent;
 }
 
