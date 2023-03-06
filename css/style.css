@@ -4,9 +4,6 @@
 }
 
 /* index */
-
-
-
 .cabecera{
     color:white;
     list-style: none;
@@ -29,12 +26,13 @@ h1{
  
 }
 
+.btn-primary{
+    background-color: transparent;
+}
 
 .burich{
     text-decoration: none;
 }
-
-
 
 footer { 
     margin-top: 20px;
@@ -62,7 +60,6 @@ footer span{
     font-family: 'Comic Neue', cursive;
     list-style: none;
 }
-
 
 
 /* carrito / login */
